@@ -8,7 +8,7 @@ $data_food_1 = [
     'brand' => 'Purina',
     'categories' => ['food', 'dog', 'eco-friendly'],
     'weigth' => 0.5,
-    'volume' => 0.5,
+    'volume' => 1.5,
     'calories' => 1500,
     'ingredients' => ['meat', 'water', 'salt', 'rice']
 ];
