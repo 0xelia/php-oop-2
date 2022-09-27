@@ -21,3 +21,4 @@ $products =
 
 $cart = new Cart($products);
 
+var_dump($cart->getTotalPrice());
