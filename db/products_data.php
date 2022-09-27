@@ -50,3 +50,27 @@ $data_toy_2 = [
     'volume' => 0.2,
     'material'=> 'plastic'
 ];
+
+$data_care_1 = [
+    'name' => 'Pipette Antizecche',
+    'price' => 13.99,
+    'poster' => 'https://imgs.search.brave.com/g5nBaQHifL_AFt5weVAbIuqUYdB-wkDjLnBm2VXjU8I/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9maWxl/cy5lZG9jay5pdC9l/RG9ja0NvcmUvZURv/Y2tDb3JlMm1ncm91/cHNhc0BnbWFpbC5j/b20vSW1hZ2VzL3pl/Y2tvRE9HXzEyMDBf/MTQwMEVYLmpwZw',
+    'description' => 'TAke care of ypur puppy.',
+    'brand' => 'Advantix',
+    'categories' => ['Dog Care', 'dog', 'eco-friendly'],
+    'weigth' => 0.1,
+    'volume' => 0.2,
+    'protection' => 'Medium Last',
+];
+
+$data_care_2 = [
+    'name' => 'Collare Antizecche',
+    'price' => 10.99,
+    'poster' => 'https://imgs.search.brave.com/j_9X_Lz2o0j_q6Ph7kR7FPXHg2Y_ZLsfTzlbjqtZ2Kw/rs:fit:180:230:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzUxMDdPVzUrOVpM/Ll9BQy5fU1IxODAs/MjMwLmpwZw',
+    'description' => 'TAke care of ypur puppy.',
+    'brand' => 'Seresto',
+    'categories' => ['Dog Care', 'dog', 'eco-friendly'],
+    'weigth' => 0.1,
+    'volume' => 0.2,
+    'protection' => 'Long Last',
+];
