@@ -4,7 +4,7 @@ class Product {
     public $name;
     public $description;
     public $brand;
-    public $price;
+    protected $price;
     protected $poster;
     public $weight;
     public $volume;
@@ -14,7 +14,7 @@ class Product {
     function __construct($param)
     {
         $this->name = $param['name'];
-        $this->price = $param['price'];
+        //$this->price = $this->setPrice($param['price']);
         $this->poster = $this->setPoster($param['poster']);
         $this->description = $param['description'];
         $this->brand = $param['brand'];
@@ -32,6 +32,14 @@ class Product {
     }
 
     public function setPrice($price){
-        //price setter
+        if(!is_float($price)){
+            throw new Exception('$price is not a number');
+        } else{
+            return $this->price = $price;
+        }
+    }
+
+    public function getPrice(){
+        return $this->price;
     }
 }

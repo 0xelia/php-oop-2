@@ -53,9 +53,9 @@ $data_toy_2 = [
     'size' => 'Small',
 ];
 
-$data_accesory_1 = [
+$data_accessory_1 = [
     'name' => 'Cuccia per cane',
-    'price' => 24.99,
+    //'price' => 'Mandi',
     'poster' => '',
     'description' => 'The best choice for your puppy rest.',
     'brand' => 'Cuccie srl',
@@ -66,7 +66,7 @@ $data_accesory_1 = [
     'size' => 'medium',
 ];
 
-$data_accesory_2 = [
+$data_accessory_2 = [
     'name' => 'Cuccia per cane grande',
     'price' => 44.99,
     'poster' => '',

@@ -5,6 +5,7 @@ include_once __DIR__ . '/api/Petfood.php';
 include_once __DIR__ . '/db/products_data.php';
 include_once __DIR__ . '/api/toy.php';
 include_once __DIR__ . '/api/petcare.php';
+include_once __DIR__ . '/api/accessory.php';
 include_once __DIR__ . '/api/cart.php';
 
 $order_1 = 
@@ -30,6 +31,13 @@ $cart = new Cart($order_1);
 // var_dump('Shipping Fee: '.$cart->getShippingFee().'€');
 // var_dump('Total: '. $cart->getTotal().'€');
 
-$tennis_ball = new PetToy($data_toy_1);
+$acc_1 = new Accessory($data_accessory_1);
 
-var_dump($tennis_ball);
+try{
+    $acc_1->setPrice('mandi');
+} catch(Exception $e){
+    echo 'Errore: '. $e->getMessage();
+}
+
+
+var_dump($acc_1);

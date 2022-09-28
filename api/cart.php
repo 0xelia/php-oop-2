@@ -28,7 +28,7 @@ class Cart {
     protected function setSubtotal($arr){
         $subtotal = [];
         foreach($arr as $product){
-            $subtotal[] = $product->price; 
+            $subtotal[] = $product->getPrice(); 
         }
         $this->subtotal = array_sum($subtotal);
     }
