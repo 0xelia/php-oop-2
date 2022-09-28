@@ -55,7 +55,7 @@ $data_toy_2 = [
 
 $data_accessory_1 = [
     'name' => 'Cuccia per cane',
-    //'price' => 'Mandi',
+    'price' => 40.01,
     'poster' => '',
     'description' => 'The best choice for your puppy rest.',
     'brand' => 'Cuccie srl',

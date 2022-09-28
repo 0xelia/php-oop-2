@@ -33,11 +33,13 @@ $cart = new Cart($order_1);
 
 $acc_1 = new Accessory($data_accessory_1);
 
+/* 
 try{
-    $acc_1->setPrice('mandi');
+    $acc_1->setPrice(23.00);
 } catch(Exception $e){
-    echo  'error: '.$e->getMessage();
+    echo  'error from index: '.$e->getMessage();
+    echo '<br/>';
 }
-
+*/ 
 
 var_dump($acc_1);

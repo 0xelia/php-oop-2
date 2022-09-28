@@ -14,7 +14,9 @@ class Product {
     function __construct($param)
     {
         $this->name = $param['name'];
-        //$this->price = $this->setPrice($param['price']);
+
+        $this->tryPrice($param['price']);
+
         $this->poster = $this->setPoster($param['poster']);
         $this->description = $param['description'];
         $this->brand = $param['brand'];
@@ -31,13 +33,23 @@ class Product {
         }
     }
 
+    protected function tryPrice($param){
+        try{
+            $this->setPrice($param);
+        } catch(Exception $e){
+            echo  'error from product.php: '.$e->getMessage();
+            echo '<br/>';
+        }
+
+        return $this->price;
+    }
+
     public function setPrice($price){
         if(!is_float($price)){
             $this->price = 0;
-            throw new Exception('$price is not a number');
-        } else{
-            return $this->price = $price;
+            throw new Exception('$price is not a number in ' . $this->name);
         }
+        return $this->price = $price;
     }
 
     public function getPrice(){
