@@ -36,7 +36,7 @@ $acc_1 = new Accessory($data_accessory_1);
 try{
     $acc_1->setPrice('mandi');
 } catch(Exception $e){
-    echo 'Errore: '. $e->getMessage();
+    echo  'error: '.$e->getMessage();
 }
 
 

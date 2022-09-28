@@ -33,6 +33,7 @@ class Product {
 
     public function setPrice($price){
         if(!is_float($price)){
+            $this->price = 0;
             throw new Exception('$price is not a number');
         } else{
             return $this->price = $price;
