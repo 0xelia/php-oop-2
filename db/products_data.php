@@ -36,11 +36,12 @@ $data_toy_1 = [
     'categories' => ['Toys', 'dog', 'eco-friendly'],
     'weigth' => 0.1,
     'volume' => 0.2,
-    'material'=> 'leather'
+    'material'=> 'leather',
+    'size' => 'extra small',
 ];
 
 $data_toy_2 = [
-    'name' => 'Plastic Bone',
+    'name' => 'Rubber Bone',
     'price' => 3.99,
     'poster' => 'https://imgs.search.brave.com/8f3Q0rSJmxiCQ6XNuUPWnA2WyCqZAasmLmRDztEb7Kk/rs:fit:372:500:1/g:ce/aHR0cHM6Ly81Lmlt/aW1nLmNvbS9kYXRh/NS9HTi9PUy9MTS9B/TkRST0lELTEwODkx/MTkzMy9wcm9kLTIw/MjAwODEyLTA4MTYy/NzE3NTg5NDgzNTMt/anBnLTUwMHg1MDAu/anBn',
     'description' => 'Delicious food for your beloved pet.',
@@ -48,7 +49,34 @@ $data_toy_2 = [
     'categories' => ['Toys', 'dog', 'eco-friendly'],
     'weigth' => 0.1,
     'volume' => 0.2,
-    'material'=> 'plastic'
+    'material'=> 'rubber',
+    'size' => 'Small',
+];
+
+$data_accesory_1 = [
+    'name' => 'Cuccia per cane',
+    'price' => 24.99,
+    'poster' => '',
+    'description' => 'The best choice for your puppy rest.',
+    'brand' => 'Cuccie srl',
+    'categories' => ['Accessories', 'dog', 'eco-friendly'],
+    'weigth' => 5,
+    'volume' => 20,
+    'material'=> 'plastic',
+    'size' => 'medium',
+];
+
+$data_accesory_2 = [
+    'name' => 'Cuccia per cane grande',
+    'price' => 44.99,
+    'poster' => '',
+    'description' => 'The best choice for your puppy rest.',
+    'brand' => 'Cuccie srl',
+    'categories' => ['Accessories', 'dog', 'eco-friendly'],
+    'weigth' => 10,
+    'volume' => 40,
+    'material'=> 'plastic',
+    'size' => 'large',
 ];
 
 $data_care_1 = [
