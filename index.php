@@ -1,6 +1,4 @@
 <?php
-//estendere classe product per le categorie di prodotti
-//classi per categorie: giochi, cibo, vestiti
 
 
 include_once __DIR__ . '/api/Petfood.php';
@@ -27,7 +25,11 @@ $order_1 =
 
 $cart = new Cart($order_1);
 
-var_dump('Order Volume: ' . $cart->getOrderVolume() . 'L');
-var_dump('Subtotal: '. $cart->getSubtotal().'€');
-var_dump('Shipping Fee: '.$cart->getShippingFee().'€');
-var_dump('Total: '. $cart->getTotal().'€');
+// var_dump('Order Volume: ' . $cart->getOrderVolume() . 'L');
+// var_dump('Subtotal: '. $cart->getSubtotal().'€');
+// var_dump('Shipping Fee: '.$cart->getShippingFee().'€');
+// var_dump('Total: '. $cart->getTotal().'€');
+
+$tennis_ball = new PetToy($data_toy_1);
+
+var_dump($tennis_ball);

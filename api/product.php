@@ -10,7 +10,7 @@ class Product {
     public $volume;
     public $categories;
 
-    // function __construct($name, $poster, $description, $brand, $categories, $weight, $volume, $price = 0)
+    
     function __construct($param)
     {
         $this->name = $param['name'];

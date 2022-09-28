@@ -9,3 +9,4 @@ class PetCare extends Product {
         $this->protection = $param['protection'];
     }
 }
+

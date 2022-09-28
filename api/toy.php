@@ -1,11 +1,13 @@
 <?php
 include_once __DIR__ . '/product.php';
+require_once __DIR__ . '/Objects.php';
 
 class PetToy extends Product {
-    public $material;
+    use Objects;
 
     function __construct($param){
         parent::__construct($param);
-        $this->material = $param['material'];
+        $this->setMaterial($param);
+        $this->setSize($param);
     }
 }
